@@ -1,0 +1,38 @@
+.login-page {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--background-shade);
+  align-items: stretch;
+
+  .login-form-container {
+    width: 50%;
+  }
+
+  .carousel-container {
+    width: 50%;
+    background-color: var(--primary-dark-2);
+    border-start-start-radius: 16px;
+    border-end-start-radius: 16px;
+
+    .carousel-item {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      height: 100vh;
+
+      .carousel-title {
+        font-size: 24px;
+        font-weight: 700;
+      }
+
+      .carousel-description {
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
+  }
+}

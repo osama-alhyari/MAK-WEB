@@ -1,0 +1,86 @@
+.text-buttons {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 0 !important;
+  gap: 10px !important;
+}
+.icon-buttons {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 0 !important;
+  border-radius: 50% !important;
+}
+
+.general-button {
+  background-color: var(--primary-dark-1) !important;
+  border-width: 0 !important;
+}
+
+.general-button:hover {
+  background-color: var(--primary-dark-2) !important;
+}
+
+.delete-button {
+  background-color: var(--danger-color) !important;
+  border-width: 0 !important;
+}
+
+.delete-button:hover {
+  background-color: var(--danger-color-hover) !important;
+}
+
+.secondary-button {
+  background-color: var(--white) !important;
+  border-width: 1px !important;
+  border-color: var(--primary-dark-2) !important;
+  color: var(--primary-dark-2) !important;
+}
+
+.secondary-button:hover {
+  background-color: var(--primary-dark-2) !important;
+  color: var(--white) !important;
+}
+
+.secondary-no-hover-button {
+  background-color: transparent !important;
+  border-width: 1px !important;
+  border-color: var(--primary-dark-2) !important;
+  color: var(--primary-dark-2) !important;
+}
+
+.toast-retry-button {
+  background-color: transparent !important;
+  border-width: 1px !important;
+  border-color: #ff5757 !important;
+  color: #ff5757 !important;
+}
+.toast-retry-button:hover {
+  background-color: rgba(255, 255, 255, 0.4) !important;
+  border-width: 1px !important;
+}
+
+#overlay_panel {
+  .p-overlaypanel-content {
+    padding: 0;
+  }
+  .p-button {
+    background-color: transparent;
+    border-width: 0;
+    width: 100%;
+    color: var(--darkest-shade);
+  }
+  .p-button:hover {
+    background-color: var(--primary-light-5);
+  }
+  span {
+    color: var(--darkest-shade);
+    text-align: start;
+  }
+  .p-button:focus {
+    box-shadow: 0 0 0 1px #ffffff, 0 0 0 1px transparent,
+      0 1px 2px 0 rgb(0, 0, 0);
+    border-width: 0;
+  }
+}

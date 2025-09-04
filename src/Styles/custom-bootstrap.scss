@@ -1,0 +1,17 @@
+// 1. Functions
+@import "bootstrap/scss/functions";
+
+// 2. Variables
+@import "bootstrap/scss/variables";
+
+// 3. Maps (includes color maps, shadow variables, etc.)
+@import "bootstrap/scss/maps";
+
+// 4. Mixins
+@import "bootstrap/scss/mixins";
+
+// 5. Utilities definitions (loads $utilities map)
+@import "bootstrap/scss/utilities";
+
+// 6. Generate the utilities (loops over $utilities)
+@import "bootstrap/scss/utilities/api";

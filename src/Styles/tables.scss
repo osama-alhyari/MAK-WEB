@@ -1,0 +1,118 @@
+.general-table-container {
+  width: 100%;
+
+  .p-datatable-table {
+    border-radius: 7px;
+    overflow: hidden;
+  }
+
+  .p-togglebutton.p-highlight .p-button {
+    background: var(--primary-color);
+  }
+
+  .p-togglebutton {
+    width: 8rem;
+  }
+
+  .p-datatable
+    .p-sortable-column.p-highlight:not(.p-sortable-disabled):hover
+    .p-sortable-column-icon {
+    color: var(--white);
+  }
+
+  .p-sortable-column-icon {
+    color: var(--white);
+  }
+
+  .p-checkbox.p-highlight .p-checkbox-box {
+    border-color: var(--primary-light-2);
+    background: var(--primary-light-2);
+  }
+
+  .p-checkbox:not(.p-disabled):has(.p-checkbox-input:hover) .p-checkbox-box {
+    border-color: var(--primary-light-2);
+  }
+
+  .p-datatable-thead > tr > th {
+    background-color: var(--primary-dark-1) !important;
+    font-size: 0.92rem;
+  }
+
+  .p-column-header-content {
+    justify-content: center !important;
+  }
+
+  .p-column-title {
+    font-weight: inherit;
+    color: var(--white);
+  }
+
+  .p-datatable-tbody > tr > td {
+    font-size: 0.92rem;
+    text-align: center;
+  }
+
+  .p-paginator-pages > .p-highlight {
+    background-color: var(--primary-light-1);
+    border-radius: 15px;
+    color: var(--white);
+  }
+
+  .p-paginator-page:hover {
+    background-color: var(--primary-dark-1);
+    border-radius: 15px;
+  }
+
+  .p-paginator-first {
+    border-radius: 15px;
+  }
+
+  .p-paginator-prev {
+    border-radius: 15px;
+  }
+
+  .p-paginator-last {
+    border-radius: 15px;
+  }
+
+  .p-paginator-next {
+    border-radius: 15px;
+  }
+
+  .p-paginator-first:hover {
+    background-color: var(--primary-dark-1);
+  }
+
+  .p-paginator-prev:hover {
+    background-color: var(--primary-dark-1);
+  }
+
+  .p-paginator-last:hover {
+    background-color: var(--primary-dark-1);
+  }
+
+  .p-paginator-next:hover {
+    background-color: var(--primary-dark-1);
+  }
+
+  .p-disabled > .p-paginator-icon > path {
+    color: white;
+  }
+
+  .p-disabled {
+    background-color: var(--disabled-gray);
+  }
+
+  .p-paginator {
+    gap: 12px;
+  }
+
+  .p-paginator-pages {
+    display: flex;
+    gap: 6px;
+  }
+
+  tr.p-row-odd {
+    background-color: (var(--lightest-shade));
+  }
+}
