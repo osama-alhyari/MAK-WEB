@@ -107,7 +107,7 @@ p {
 }
 
 .p-inputtext:enabled:focus {
-  box-shadow: 0 0 0 0.2rem var(--primary-light-3);
+  box-shadow: 0 0 0 0.07rem var(--primary-light-3);
   border-color: var(--primary-dark-1);
 }
 
@@ -117,7 +117,7 @@ p {
 
 .p-checkbox:not(.p-disabled):has(.p-checkbox-input:focus-visible)
   .p-checkbox-box {
-  box-shadow: 0 0 0 0.2rem var(--primary-light-3);
+  box-shadow: 0 0 0 0.07rem var(--primary-light-3);
   border-color: var(--primary-dark-1);
 }
 
@@ -136,7 +136,7 @@ p {
 }
 
 .p-dropdown:not(.p-disabled).p-focus {
-  box-shadow: 0 0 0 0.2rem var(--primary-light-3);
+  box-shadow: 0 0 0 0.07rem var(--primary-light-3);
   border-color: var(--primary-dark-1);
 }
 
@@ -302,21 +302,21 @@ html[dir="ltr"] {
 }
 
 .p-calendar:not(.p-calendar-disabled).p-focus > .p-inputtext {
-  box-shadow: 0 0 0 0.2rem var(--primary-light-3);
+  box-shadow: 0 0 0 0.07rem var(--primary-light-3);
   border-color: var(--primary-dark-1);
 }
 
 .p-datepicker:not(.p-disabled)
   .p-monthpicker
   .p-monthpicker-month:not(.p-disabled):focus {
-  box-shadow: 0 0 0 0.2rem var(--primary-light-3);
+  box-shadow: 0 0 0 0.07rem var(--primary-light-3);
 }
 
 .p-datepicker:not(.p-disabled)
   table
   td
   span:not(.p-highlight):not(.p-disabled):focus {
-  box-shadow: 0 0 0 0.2rem var(--primary-light-3);
+  box-shadow: 0 0 0 0.07rem var(--primary-light-3);
 }
 
 .p-datepicker table td > span.p-highlight {
@@ -332,7 +332,7 @@ html[dir="ltr"] {
 .p-datepicker:not(.p-disabled)
   .p-yearpicker
   .p-yearpicker-year:not(.p-disabled):focus {
-  box-shadow: 0 0 0 0.2rem var(--primary-light-3);
+  box-shadow: 0 0 0 0.07rem var(--primary-light-3);
 }
 
 .p-datepicker .p-monthpicker .p-monthpicker-month.p-highlight {
@@ -442,4 +442,25 @@ html[dir="ltr"] {
   .p-inputtext {
     border-radius: 6px !important;
   }
+}
+
+.two-inputs-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.p-password-input	 {
+  width: 100%;
+}
+
+.input-with-validation{
+  display: flex;
+  flex-direction: column;
+}
+
+.input-error-text{
+  color : var(--danger-color)
 }

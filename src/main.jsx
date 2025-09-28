@@ -3,8 +3,11 @@ import App from "./App.jsx";
 import { BrowserRouter } from "react-router-dom";
 import "./Styles/index.scss";
 import "./Styles/custom-bootstrap.scss";
+import "./Styles/buttons.scss";
 // import { Provider } from "react-redux";
 // import { store } from "./redux/store.js";
+import "./i18n/i18n.js";
+
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
